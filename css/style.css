@@ -9,6 +9,10 @@
 	background: url(../img/psb-logo.png) no-repeat;
 }
 
+.logo.white {
+	background: url(../img/psb-logo-white.png) no-repeat;
+}
+
 .menu {
 	margin-top: 25px;
 }
@@ -18,28 +22,165 @@
 }
 
 .menu ul li a {
-	padding: 20px 20px 40px 10px;
+	padding: 20px 20px 40px;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
+	color: #555;
 }
 
 .menu ul li a.active, .menu ul li a:hover {
+	color: #1584a2;
 	text-decoration: none;
-	border-bottom: solid 4px red;
+	border-bottom: solid 4px #1584a2;
+}
+
+.menu ul li a.btn-login {
+	color: #1584a2;
+	border: solid 4px #1584a2;
+	padding: 20px;
+}
+.menu ul li a.btn-login:hover {
+	background: #1584a2;
+	color: #FFFFFF;
 }
 
 .welcome {
-	margin-top: 4px;
+	margin: 4px 0 30px;
 	border: solid 1px #eaeaea;
-	padding: 50px;
-	background: url(../img/perpus.jpg);
-	background-size: 1140px;
+	padding: 60px 0 75px;
+	background: url(../img/perpus-bw.jpg);
 	background-position: center;
 	color: #FFFFFF;
 }
 
+.welcome h1 {
+	font-size: 60px;
+}
 .welcome p {
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.5em;
+}
+
+.welcome .kickstart {
+	margin-top: 35px;
+}
+.welcome .btn-start {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: solid 3px #FFFFFF;
+	color: #FFFFFF;
+}
+
+.welcome .btn-start:hover {
+	text-decoration: none;
+	background: #1584a2;
+}
+
+.intro {
+	margin: 30px 0 0;
+	padding: 20px 0;
+	background: #f2f2f2;
+}
+
+.intro h1 {
+	text-transform: uppercase;
+}
+
+.intro .description {
+	border-top: solid 4px #ccc;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.statistik {
+	background: url(../img/anak2.jpg);
+	background-position: center;
+	padding: 50px;
+	margin-bottom: 30px;
+}
+
+.lingkaran-besar {
+	margin: 0 auto;
+	padding: 20px;
+	width: 135px;
+	height: 135px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, .7);
+}
+
+.lingkaran-kecil {
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, .7);
+}
+
+.angka {
+	font-size: 35px;
+	color: #555;
+	text-align: center;
+	padding-top: 22px;
+	font-weight: bold;
+}
+
+.keterangan {
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+.kegiatan h1 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.kegiatan .tanggal  {
+	min-height: 200px;
+	background: #1584a2;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+
+.tanggal.even {
+	background: #18a68e;
+}
+
+.kegiatan .acara {
+	min-height: 130px;
+	text-align: center;
+	padding: 15px 0;
+	background: #f2f2f2;
+}
+
+.motto {
+	margin-top: 50px;
+	padding: 30px;
+	background: #222;
+}
+
+.informasi {
+	background: #1584a2;
+	color: #FFFFFF;
+	padding: 30px 0;
+}
+
+.kontak {
+	font-size: 20px;
+}
+
+.footer {
+	background: #1584a2;
+	padding: 20px 0;
+	color: #FFFFFF;
+	border-top: solid 1px #FFFFFF;
 }
