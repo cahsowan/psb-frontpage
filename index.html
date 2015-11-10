@@ -19,25 +19,39 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="navigation">
+		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
-				<div class="pull-left">
-					<a href="#">
-						<div class="logo">PSB Kafila</div>
-					</a>
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">PSB Kafila</a>
 				</div>
-				<div class="menu pull-right">
-					<ul>
-						<li><a class="active" href="#">Beranda</a></li>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="active">Beranda</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pengumuman <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li>
 						<li><a href="#">Pendaftaran</a></li>
-						<li><a href="#">Pengumuman</a></li>
 						<li><a href="#">Panduan</a></li>
-						<li><a href="#" class="btn-login">Login</a></li>
+						<li><a href="#" class="login">Login</a></li>
 					</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>	
-		</div>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
 
 		<div class="welcome">
 			<div class="container">
@@ -63,9 +77,10 @@
 
 						<p>Beasiswa diberikan pada calon santri dengan kriteria yang telah kami tentukan, ada beberapa syarat dan ketentuan pendaftaran yang harus dipenuhi oleh setiap pendaftar.</p>
 
-						<p>
-							<a href="#" class="btn btn-success">Selengkapnya</a>
-						</p>
+						<div class="clearfix"></div>
+						<div class="detail-button-holder">
+							<a href="#" class="btn-detail">Selengkapnya</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center">
 						<span class="fa-stack fa-2x">
@@ -77,9 +92,10 @@
 
 						<p>Salah satu kriteria yang harus dipenuhi pendaftar adalah batas minimal nilai di sekolah dasar, untuk mengetahui lebih awal apakah nilai memenui standar, lakukanlah simulai perhitungan nilai terlebih dahulu.</p>
 
-						<p>
-							<a href="#" class="btn btn-success">Selengkapnya</a>
-						</p>
+						<div class="clearfix"></div>
+						<div class="detail-button-holder">
+							<a href="#" class="btn-detail">Selengkapnya</a>
+						</div>
 					</div>
 					<div class="col-md-4 text-center">
 						<span class="fa-stack fa-2x">
@@ -91,16 +107,17 @@
 
 						<p>Untuk mendapat informasi yang lebih lengkap tentang proses pendaftaran ataupun tentang Kafila International Islamic School, anda bisa bertanya atau mencari jawaban di forum tanya jawab.</p>
 
-						<p>
-							<a href="#" class="btn btn-success">Selengkapnya</a>
-						</p>
+						<div class="clearfix"></div>
+						<div class="detail-button-holder">
+							<a href="#" class="btn-detail">Selengkapnya</a>
+						</div>
 					</div>
 				</div>
 
 				<hr>
-				<p class="text-center">
-					<a href="#" class="btn btn-danger btn-lg">Unduh Brosur</a>
-				</p>
+				<div class="unduh-button-holder">
+					<a href="#" class="btn-unduh">Unduh Brosur</a>
+				</div>
 				<!-- <hr> -->
 			</div>
 		</div>
@@ -110,6 +127,7 @@
 				<div class="row">
 					<div class="col-md-7">
 						<h1>Kafila<br> International Islamic School</h1>
+						<div class="even-separator"></div>
 					</div>
 					<div class="col-md-5">
 						<img src="img/awan.jpg" class="img-responsive" alt="">
@@ -165,10 +183,11 @@
 		<div class="kegiatan">
 			<div class="container">
 				<h1>Rangkaian Kegiatan</h1>
+				<div class="even-separator"></div>
 
 				<div class="row">
 					<div class="col-md-2">
-						<div class="tanggal">14 Des 2015<br> -<br> 14 Feb 2016</div>
+						<div class="tanggal">14 Des 2015 <div class="separator-line"></div> 14 Feb 2016</div>
 						<div class="acara">Penerimaan berkas pendaftaran santri baru (online)</div>
 					</div>
 					<div class="col-md-2">
@@ -176,11 +195,11 @@
 						<div class="acara">Pelaksanaan tes Alquran Wilayah Jabodetabek</div>
 					</div>
 					<div class="col-md-2">
-						<div class="tanggal">5 Mar 2016<br> .<br> 13 Mar 2016</div>
+						<div class="tanggal">5 Mar 2016 <div class="separator-dot"></div> 13 Mar 2016</div>
 						<div class="acara">Pelaksanaan tes Akademik, tes Alquran dan Psikotes.<br> 5 Maret (Jabodetabek) <br> 13 Maret (Daerah)</div>
 					</div>
 					<div class="col-md-2">
-						<div class="tanggal even">23 Mar 2015<br> -<br> 26 Mar 2015</div>
+						<div class="tanggal even">23 Mar 2015 <div class="separator-line"></div> 26 Mar 2015</div>
 						<div class="acara">Karantina dan wawancara (di Jakarta)</div>
 					</div>
 					<div class="col-md-2">
@@ -194,7 +213,7 @@
 
 		<div class="motto">
 			<div class="container">
-				<h1 class="text-center">Kafila, Bukan Pesantren Biasa!</h1>
+				<h1 class="text-center capital">Kafila, Bukan Pesantren Biasa!</h1>
 			</div>
 		</div>
 
@@ -202,29 +221,55 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="logo white">PSB Kafila</div>
-						<h1>Layanan Informasi</h1>
-						<h2>Penerimaan Santri Baru Kafila</h2>
-
-						<p>Informasi lengkap mengenai proses pendaftaran bisa ditanyakan kepada panitia nomor kontak yang tertera di website ini</p>
+						<div class="logo white pull-left">PSB Kafila</div>
+						<div class="pull-left header-info">
+							<h1>Layanan Informasi</h1>
+							<h3>Penerimaan Santri Baru Kafila</h3>
+						</div>
+						
+						<div class="clearfix"></div>
+						<p class="pusat-info-desc">Informasi lengkap mengenai proses pendaftaran bisa ditanyakan kepada panitia nomor kontak yang tertera berikut ini:</p>
 					</div>
 					<div class="col-md-4 kontak">
-						<div>
-							<i class="fa fa-phone fa-2x"></i>
-							<p>Kafila 021-8400762 / 021-87796325</p>
-						</div>
-						<div>
-							<i class="fa fa-mobile-phone fa-2x"></i>
-							<p>Ust. Erfan 0873292342342</p>
-							<p>Ust. Hamdi 0813238232433</p>
-							<p>Ust. Yanuar 0896421139994</p>
-						</div>
-						<div>
-							<i class="fa fa-clock-o fa-2x"></i>
-							<p>Senin - Sabtu: 08.00 - 14.00</p>
+						<dl class="dl-horizontal">
+							<dt>
+								<i class="fa fa-phone fa-2x"></i>
+							</dt>
+							<dd>
+								<p>Kafila<br> 021-8400762 / 021-87796325</p>
+							</dd>
+						</dl>
+						<dl class="dl-horizontal">
+							<dt>
+								<i class="fa fa-mobile-phone fa-2x"></i>
+							</dt>
+							<dd>
+								<p>Ust. Erfan 0873292342342</p>
+								<p>Ust. Hamdi 0813238232433</p>
+								<p>Ust. Yanuar 0896421139994</p>
+							</dd>
+						</dl>
+						<dl class="dl-horizontal">
+							<dt>
+								<i class="fa fa-clock-o fa-lg"></i>
+							</dt>
+							<dd>
+								<p>Senin - Sabtu: 08.00 - 14.00</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="col-md-4 verifikasi">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Verifikasi Berkas dan Data</h3>
+							</div>
+							<ul class="list-group">
+							    <li class="list-group-item"><i class="fa fa-user fa-fw"></i>&nbsp; Rifky <span class="pull-right">08992682559</span></li>
+							    <li class="list-group-item"><i class="fa fa-user fa-fw"></i>&nbsp; Derus <span class="pull-right">08382191983</span></li>
+							    <li class="list-group-item"><i class="fa fa-user fa-fw"></i>&nbsp; Furqon <span class="pull-right">081358585464</span></li>
+						   </ul>
 						</div>
 					</div>
-					<div class="col-md-4"></div>
 				</div>
 			</div>
 		</div>
@@ -233,7 +278,7 @@
 			<div class="container">
 				<p class="pull-left">Copyright - PSB Kafila 2016</p>
 
-				<p class="pull-right">Desin by <strong>Ilman Abdu</strong></p>
+				<p class="pull-right"><small>Desain oleh</small> <strong>Ilman Abdu</strong></p>
 			</div>
 		</div>
 
