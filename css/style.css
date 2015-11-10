@@ -7,7 +7,7 @@
 
 .logo.white {
 	background: url(../img/psb-logo-white.png) no-repeat;
-	margin-right: 5px;
+	/*margin-right: 5px;*/
 }
 
 /* HACK of BOOTSTRAP NAVBAR */
@@ -281,6 +281,10 @@
 	color: #FFFFFF;
 	padding: 30px 0;
 	border-bottom: solid 1px #15697f;
+}
+
+.informasi hr {
+	margin: 5px 0 10px;
 }
 
 .pusat-info-desc {
